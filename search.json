@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Placeholder."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Liam Hallinan",
+    "section": "",
+    "text": "I am a postdoctoral researcher in the Control Group at the University of Cambridge. I develop methods for determining whether a power grid will remain stable as new inverter-based generation is connected to it, using only local information about each component rather than a model of the entire network."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Placeholder."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Placeholder."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Placeholder."
+  }
+]
