@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Control theory for complex network systems: decentralised stability certification for AC grids, plug-and-play control design, and distributed optimisation.">
 
 <title>Research – Liam Hallinan</title>
 <style>
@@ -40,12 +41,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-78a1f49ea786aacce7eb96575817cfb8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,6 +76,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Research – Liam Hallinan">
+<meta property="og:description" content="Postdoctoral researcher in the Control Group, University of Cambridge. Decentralised stability analysis and control of inverter-based power grids.">
+<meta property="og:site_name" content="Liam Hallinan">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -106,10 +109,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
@@ -149,20 +148,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Placeholder.</p>
+<div class="lede">
+<p>I apply control theory to complex network systems, focusing on decentralised performance and stability analysis for systems that require plug-and-play functionality.</p>
+</div>
+<p>My primary application is AC power grids. As synchronous generation is replaced by inverter-based resources, the rotational inertia of the grid is disappearing, and the distributed nature of the evolving system means classical small-signal techniques — such as eigenvalue analysis on a fixed, monolithic, system-wide model — are no longer scalable or appropriate. The same decentralised techniques carry over to distributed optimisation, where decentralised algorithms are used to control physical networks.</p>
+<section id="themes" class="level2">
+<h2 data-anchor-id="themes">Themes</h2>
+<div class="theme-block">
+<p><span class="theme-tag">Theme 01</span></p>
+<section id="decentralised-stability-conditions-for-ac-grids" class="level3">
+<h3 data-anchor-id="decentralised-stability-conditions-for-ac-grids">Decentralised stability conditions for AC grids</h3>
+<p>I develop decentralised small-signal stability certificates for AC grids in the frequency-domain. These take the form of quadratic constraints imposed on individual subsystems — devices, buses and lines — which collectively ensure the full interconnection is stable. A companion work shows that grid subsystem representations exhibit inherent unstable open-loop poles in many common network configurations, even when the aggregate interconnection is stable and well behaved, making decentralised analysis more difficult. The proposed stability framework accounts for such complexities encountered in real system models.</p>
+<div class="panel">
+<p><strong>In practice.</strong> These conditions are the foundation for a grid code: a connection standard a device manufacturer can test or design against without needing to know the details of the full network. Because each certificate is local, adding, re-rating or removing plant does not trigger a system-wide restudy, and device controllers do not need re-tuning every time the topology changes.</p>
+</div>
+<p><em>Related:</em> <a href="https://doi.org/10.48550/arXiv.2609.07315">Part I</a> and <a href="https://doi.org/10.48550/arXiv.2609.07331">Part II</a> of the plug-and-play stability conditions; <a href="https://doi.org/10.48550/arXiv.2606.03514">unstable poles in subsystem representations</a>.</p>
+</section>
+</div>
+<div class="theme-block">
+<p><span class="theme-tag">Theme 02</span></p>
+<section id="optimality-in-decentralised-and-distributed-systems" class="level3">
+<h3 data-anchor-id="optimality-in-decentralised-and-distributed-systems">Optimality in decentralised and distributed systems</h3>
+<p>Decentralised control design gives stability and scalability, but says little about how well the network performs as a whole. Performance is crucial in many network applications, such as power systems and internet congestion control. I use inverse optimal control to link stability and performance, showing that under appropriate local conditions, decentralised passive controllers are exactly the solution of a network-wide optimal control problem. This argument extends to distributed optimisation algorithms, viewed as dynamical systems: a broad class of augmented primal–dual methods prove optimal for a cost penalising deviations from optimality during the transient.</p>
+<div class="panel">
+<p><strong>In practice.</strong> Both results give a performance metric where there were previously only stability guarantees and simulation studies, showing what a controller’s or an algorithm’s parameters actually trade off. Synthesis for linear systems reduces to an LMI — a solver call rather than hand-tuning.</p>
+</div>
+<p><em>Related:</em> <a href="https://doi.org/10.1109/TAC.2025.3570050">inverse optimal control for passive network systems</a> (IEEE TAC); <a href="https://doi.org/10.1109/CDC49753.2023.10384101">passivity-based design for converter-based microgrids</a>; <a href="https://doi.org/10.48550/arXiv.2509.17785">an optimal control interpretation of augmented distributed optimisation algorithms</a> (under review, <em>Automatica</em>) and its <a href="https://doi.org/10.1109/CDC56724.2024.10886848">conference version</a>.</p>
+</section>
+</div>
+</section>
+<section id="methods" class="level2">
+<h2 data-anchor-id="methods">Methods</h2>
+<div class="skill-grid">
+<dl>
+<dt>Analysis</dt>
+<dd>
+Multivariable and generalised Nyquist analysis · integral quadratic constraints (IQCs) · passivity and dissipativity theory · small-signal and impedance-based modelling · network graph reduction · optimal and inverse optimal control
+</dd>
+<dt>Computation</dt>
+<dd>
+MATLAB · Simulink · CVX · linear matrix inequalities and semidefinite programming · Python
+</dd>
+<dt>Application</dt>
+<dd>
+AC transmission networks and grid codes · inverter control and converter-based microgrids · distributed optimisation
+</dd>
+</dl>
+</div>
+</section>
+<section id="talks-and-posters" class="level2">
+<h2 data-anchor-id="talks-and-posters">Talks and posters</h2>
+<p><strong>ACE &amp; UKACC Control Conference 2026</strong>, Newcastle upon Tyne — <em>Local Plug-and-Play Compatible Stability Conditions for AC Grids</em>: <a href="./assets/ukacc2026_slides_final.pdf">slides</a> · <a href="./assets/ukacc2026_poster_final.pdf">poster</a></p>
+<p>Material from other talks is available on request.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -227,7 +271,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/liamhallinan5\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -241,6 +285,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -558,13 +607,32 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p>© 2026 Liam Hallinan</p>
+</div>   
     <div class="nav-footer-center">
-<p>Liam Hallinan © 2026</p>
-</div>
-    <div class="nav-footer-right">
       &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:lh706@cam.ac.uk">
+      <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=LmZyKIIAAAAJ&amp;hl=en">
+      <i class="bi bi-mortarboard-fill" role="img" aria-label="Google Scholar">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/liam-hallinan-cambridge/">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+</ul>
     </div>
   </div>
 </footer>

@@ -2,36 +2,141 @@
   {
     "objectID": "cv.html",
     "href": "cv.html",
-    "title": "CV",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "Placeholder."
+    "text": "Researcher in the control and optimisation of large-scale network systems, with expertise in power systems, decentralised control and distributed algorithms. Cambridge PhD in Engineering, a background in theoretical physics, and five years delivering software and data projects in industry before returning to research.\nCambridge, UK · lh706@cam.ac.uk · LinkedIn · Google Scholar"
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum Vitae",
+    "section": "Experience",
+    "text": "Experience\n\n\n2025 – Dec 2026\n\n\nResearch AssociateDepartment of Engineering, University of Cambridge\nControl of inverter-based grids, in the Control Group, on a project funded by an ERC Proof-of-Concept grant.\n\nDeveloped a decentralised framework certifying the stability of AC power grids from local subsystem analysis alone, removing the need to analyse a model of the full network and enabling plug-and-play connection of new devices.\nExtended the framework to subsystem representations that are themselves unstable — an inherent obstacle to applying decentralised stability methods to realistic grids.\nTwo journal papers under review at IEEE Transactions on Automatic Control; conference paper accepted at IEEE CDC 2026.\nPresented to a mixed academic and industry audience at the ACE & UKACC Control Conference 2026. Presenting at the IEEE Conference on Decision and Control (CDC) in Dec 2026.\n\n\n\n\n\n2018 – 2020\n\n\nTechnical Business Analyst / Product OwnerConsenSys, Dublin\nEnterprise blockchain applications, working in a distributed global team.\n\nProduct owner for a blockchain-based document management system: owned the functional and technical requirements and their prioritisation.\nBusiness analyst on a platform digitising agricultural commodities trading: wrote user stories and worked directly with the development team through delivery.\nAgile delivery under Scrum, working across engineering, design and commercial client stakeholders.\n\n\n\n\n\n2015 – 2018\n\n\nTechnology ConsultantAccenture, Dublin\nHigh-profile mortgage remediation programme in the retail banking sector.\n\nLead data analyst: analysed programme data and designed and built automated tools (SQL, VBA) to reduce manual activity.\nBusiness analyst: ran requirements workshops and translated the output into technical solutions.\nProject manager: reported programme progress to senior client stakeholders and resolved delivery risks and issues."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n\n2021 – 2025\n\n\nPhD, EngineeringUniversity of Cambridge (Christ’s College) — passed with no corrections\nThesis: Performance and Stability in Decentralised Network Systems with Applications to Distributed Optimisation and Power Systems. Supervised by Prof. Ioannis Lestas, Control Group.\n\nDecentralised control and stability analysis of large-scale dynamical networks, with a primary application to renewable-based electricity grids.\nCombined theoretical analysis (multivariable Nyquist theory, integral quadratic constraints, graph theory, passivity, inverse optimal control) with computational simulations in MATLAB.\nFunded by a competitive UKRI EPSRC Doctoral Training Partnership studentship.\n\n\n\n\n\n2020 – 2021\n\n\nMPhil, Energy TechnologiesUniversity of Cambridge (Christ’s College) — Distinction, first in cohort\nDissertation: The Stability of Inverter-Based Microgrids. Coursework in renewable generation (solar, wind, hydro, biofuels), nuclear fission and fusion systems, and climate change mitigation.\n\n\n\n\n2011 – 2015\n\n\nB.A. (Mod.) Theoretical PhysicsTrinity College Dublin — First Class Honours, Gold Medal\nCoursework in quantum field theory, general relativity, differential geometry, high energy physics, group representations, and computational methods."
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "Publications",
+    "text": "Publications\nOne journal article in IEEE Transactions on Automatic Control, three journal papers under review (IEEE TAC ×2, Automatica), and three peer-reviewed IEEE CDC conference papers.\nFull list, with links →"
+  },
+  {
+    "objectID": "cv.html#selected-talks",
+    "href": "cv.html#selected-talks",
+    "title": "Curriculum Vitae",
+    "section": "Selected talks",
+    "text": "Selected talks\n\n\nDec 2026\n\n\nIEEE Conference on Decision and Control (CDC), Honolulu, Hawaii, USA — Unstable Poles Arising in AC Power Grid Subsystem Representations.\n\n\n\n\nOct 2026\n\n\nInformation Engineering (Division F) Annual Conference, Cambridge, UK — Decentralised Plug-and-Play Stability Conditions for AC Grids.\n\n\n\n\nJun 2026\n\n\nACE & UKACC Control Conference, Newcastle upon Tyne, UK — Local Plug-and-Play Compatible Stability Conditions for AC Grids.\n\n\n\n\nDec 2024\n\n\nIEEE Conference on Decision and Control (CDC), Milan, Italy — An Inverse Optimal Control Interpretation of Augmented Distributed Optimisation Algorithms.\n\n\n\n\nAug 2024\n\n\nInternational Symposium on Mathematical Theory of Networks and Systems (MTNS), Cambridge, UK — An Inverse Optimal Control Interpretation of Augmented Distributed Optimisation Algorithms.\n\n\n\n\nDec 2023\n\n\nIEEE Conference on Decision and Control (CDC), Singapore — Inverse Optimal Control and Passivity-Based Design for Converter-Based Microgrids."
+  },
+  {
+    "objectID": "cv.html#teaching-and-mentoring",
+    "href": "cv.html#teaching-and-mentoring",
+    "title": "Curriculum Vitae",
+    "section": "Teaching and mentoring",
+    "text": "Teaching and mentoring\n\n\n2022 – 2026\n\n\nSTEM Study Skills TutorAccessibility and Disability Resource Centre, University of Cambridge\nOne-to-one study skills support for STEM students, adapting technical material to individual learning needs.\n\n\n\n\n2025 – 2026\n\n\nSupervisor, 3F2 Systems and ControlDepartment of Engineering, University of Cambridge\nSmall-group teaching on problem sets for the third-year control course, covering state-space methods.\n\n\n\n\n2021 – 2024\n\n\nSenior Lab DemonstratorDepartment of Engineering, University of Cambridge\nRan weekly second-year undergraduate control laboratories; trained other demonstrators and managed the rota.\n\n\n\n\n2021 – 2022\n\n\nTeaching Assistant, MPhil Energy TechnologiesDepartment of Engineering, University of Cambridge\nWeekly problem-set and coding support for master’s students."
+  },
+  {
+    "objectID": "cv.html#awards-and-scholarships",
+    "href": "cv.html#awards-and-scholarships",
+    "title": "Curriculum Vitae",
+    "section": "Awards and scholarships",
+    "text": "Awards and scholarships\n\n\n2024\n\n\nIEEE Student Travel Support Grant (for CDC, Milan).\n\n\n\n\n2023\n\n\nIEEE Student Travel Support Grant (for CDC, Singapore).\n\n\n\n\n2021\n\n\nExaminers’ Prize, MPhil Energy Technologies, University of Cambridge — highest result in the cohort.\n\n\n\n\n2021 – 2025\n\n\nUKRI EPSRC Doctoral Training Partnership studentship.\n\n\n\n\n2020\n\n\nGeorge Moore Scholarship — €20,000 towards postgraduate study.\n\n\n\n\n2015\n\n\nGold Medal, Trinity College Dublin, for exceptional merit at final examinations.\n\n\n\n\n2013\n\n\nTrinity Foundation Scholarship (“Schol”) — awarded on non-compulsory examinations demonstrating exceptional command of the subject.\n\n\n\n\n2011\n\n\nNaughton Foundation Scholarship, for maximum points (seven A1s) in the Irish Leaving Certificate (top 0.1% nationally)."
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "Technical skills",
+    "text": "Technical skills\n\n\nLanguages\n\nMATLAB (primary) · Python · SQL · LaTeX\n\nTools\n\nSimulink · CVX\n\nMethods\n\nMultivariable and generalised Nyquist analysis · integral quadratic constraints (IQCs) · passivity and dissipativity theory · small-signal and impedance-based modelling · network graph reduction · distributed optimisation · optimal and inverse optimal control"
+  },
+  {
+    "objectID": "cv.html#service",
+    "href": "cv.html#service",
+    "title": "Curriculum Vitae",
+    "section": "Service",
+    "text": "Service\n\n\n2023 – 2024\n\n\nLGBTQ+ Officer, Christ’s College MCR (graduate student society), University of Cambridge.\n\n\n\n\n2024\n\n\nCo-organised an internal Information Engineering conference at Cambridge (100+ attendees).\n\n\n\n\nOngoing\n\n\nReviewer for IEEE Transactions on Automatic Control, IEEE Transactions on Smart Grid, Automatica, IEEE Control Systems Letters, Nonlinear Dynamics, Applied Energy, IEEE Conference on Decision and Control, American Control Conference."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Liam Hallinan",
     "section": "",
-    "text": "I am a postdoctoral researcher in the Control Group at the University of Cambridge. I develop methods for determining whether a power grid will remain stable as new inverter-based generation is connected to it, using only local information about each component rather than a model of the entire network."
+    "text": "I am a postdoctoral researcher in the Control Group at the University of Cambridge, working on the stability of electricity grids built around renewable generation.\nResearch Areas (see more):\nBefore the PhD I spent five years in industry in Dublin, in technology consulting and as a business analyst/product owner on enterprise software."
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Placeholder."
+    "objectID": "index.html#recent",
+    "href": "index.html#recent",
+    "title": "Liam Hallinan",
+    "section": "Recent",
+    "text": "Recent\n\n\n\n\nSep 2026\n\n\nPreprint of two-part paper on decentralised plug-and-play stability conditions for AC grids now live: Part I and Part II.\n\n\n\n\nJul 2026\n\n\nAccepted to present Unstable Poles Arising in AC Power Grid Subsystem Representations at the 65th IEEE Conference on Decision and Control, Honolulu, Hawaii, USA (session WeBT10).\n\n\n\n\nJun 2026\n\n\nTalk at the ACE & UKACC Control Conference on decentralised stability certification for AC power grids: slides · poster.\n\n\n\n\nNov 2025\n\n\nPhD in Engineering awarded by the University of Cambridge, passed with no corrections."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Placeholder."
+    "text": "I apply control theory to complex network systems, focusing on decentralised performance and stability analysis for systems that require plug-and-play functionality.\nMy primary application is AC power grids. As synchronous generation is replaced by inverter-based resources, the rotational inertia of the grid is disappearing, and the distributed nature of the evolving system means classical small-signal techniques — such as eigenvalue analysis on a fixed, monolithic, system-wide model — are no longer scalable or appropriate. The same decentralised techniques carry over to distributed optimisation, where decentralised algorithms are used to control physical networks."
+  },
+  {
+    "objectID": "research.html#themes",
+    "href": "research.html#themes",
+    "title": "Research",
+    "section": "Themes",
+    "text": "Themes\n\nTheme 01\n\nDecentralised stability conditions for AC grids\nI develop decentralised small-signal stability certificates for AC grids in the frequency-domain. These take the form of quadratic constraints imposed on individual subsystems — devices, buses and lines — which collectively ensure the full interconnection is stable. A companion work shows that grid subsystem representations exhibit inherent unstable open-loop poles in many common network configurations, even when the aggregate interconnection is stable and well behaved, making decentralised analysis more difficult. The proposed stability framework accounts for such complexities encountered in real system models.\n\nIn practice. These conditions are the foundation for a grid code: a connection standard a device manufacturer can test or design against without needing to know the details of the full network. Because each certificate is local, adding, re-rating or removing plant does not trigger a system-wide restudy, and device controllers do not need re-tuning every time the topology changes.\n\nRelated: Part I and Part II of the plug-and-play stability conditions; unstable poles in subsystem representations.\n\n\n\nTheme 02\n\nOptimality in decentralised and distributed systems\nDecentralised control design gives stability and scalability, but says little about how well the network performs as a whole. Performance is crucial in many network applications, such as power systems and internet congestion control. I use inverse optimal control to link stability and performance, showing that under appropriate local conditions, decentralised passive controllers are exactly the solution of a network-wide optimal control problem. This argument extends to distributed optimisation algorithms, viewed as dynamical systems: a broad class of augmented primal–dual methods prove optimal for a cost penalising deviations from optimality during the transient.\n\nIn practice. Both results give a performance metric where there were previously only stability guarantees and simulation studies, showing what a controller’s or an algorithm’s parameters actually trade off. Synthesis for linear systems reduces to an LMI — a solver call rather than hand-tuning.\n\nRelated: inverse optimal control for passive network systems (IEEE TAC); passivity-based design for converter-based microgrids; an optimal control interpretation of augmented distributed optimisation algorithms (under review, Automatica) and its conference version."
+  },
+  {
+    "objectID": "research.html#methods",
+    "href": "research.html#methods",
+    "title": "Research",
+    "section": "Methods",
+    "text": "Methods\n\n\nAnalysis\n\nMultivariable and generalised Nyquist analysis · integral quadratic constraints (IQCs) · passivity and dissipativity theory · small-signal and impedance-based modelling · network graph reduction · optimal and inverse optimal control\n\nComputation\n\nMATLAB · Simulink · CVX · linear matrix inequalities and semidefinite programming · Python\n\nApplication\n\nAC transmission networks and grid codes · inverter control and converter-based microgrids · distributed optimisation"
+  },
+  {
+    "objectID": "research.html#talks-and-posters",
+    "href": "research.html#talks-and-posters",
+    "title": "Research",
+    "section": "Talks and posters",
+    "text": "Talks and posters\nACE & UKACC Control Conference 2026, Newcastle upon Tyne — Local Plug-and-Play Compatible Stability Conditions for AC Grids: slides · poster\nMaterial from other talks is available on request."
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Placeholder."
+    "text": "Also on Google Scholar. All entries are available as BibTeX."
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "Journal articles",
+    "text": "Journal articles\n\n\nL. Hallinan, J. D. Watson and I. Lestas, “Inverse Optimal Control for Passive Network Systems,” IEEE Transactions on Automatic Control, vol. 70, no. 10, pp. 6969–6976, Oct. 2025. DOI"
+  },
+  {
+    "objectID": "publications.html#preprints-and-papers-under-review",
+    "href": "publications.html#preprints-and-papers-under-review",
+    "title": "Publications",
+    "section": "Preprints and papers under review",
+    "text": "Preprints and papers under review\n\n\nL. Hallinan and I. Lestas, “Decentralised Plug-and-Play Stability Conditions for AC Grids — Part I,” Sep. 2026.  preprint arXiv\nL. Hallinan and I. Lestas, “Decentralised Plug-and-Play Stability Conditions for AC Grids — Part II: Unstable Subsystems,” Sep. 2026.  preprint arXiv\nL. Hallinan and I. Lestas, “An Optimal Control Interpretation of Augmented Distributed Optimization Algorithms,” Sep. 2025. Automatica under review arXiv"
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-conference-papers",
+    "href": "publications.html#peer-reviewed-conference-papers",
+    "title": "Publications",
+    "section": "Peer-reviewed conference papers",
+    "text": "Peer-reviewed conference papers\n\n\nL. Hallinan and I. Lestas, “Unstable Poles Arising in AC Power Grid Subsystem Representations,” 65th IEEE Conference on Decision and Control (CDC), Dec. 2026. accepted arXiv\nL. Hallinan and I. Lestas, “An Inverse Optimal Control Interpretation of Augmented Distributed Optimisation Algorithms,” 63rd IEEE Conference on Decision and Control (CDC), Dec. 2024, pp. 909–914. DOI\nL. Hallinan, J. D. Watson and I. Lestas, “Inverse Optimal Control and Passivity-Based Design for Converter-Based Microgrids,” 62nd IEEE Conference on Decision and Control (CDC), Dec. 2023, pp. 1245–1250. DOI"
+  },
+  {
+    "objectID": "publications.html#thesis",
+    "href": "publications.html#thesis",
+    "title": "Publications",
+    "section": "Thesis",
+    "text": "Thesis\n\n\nL. Hallinan, “Performance and Stability in Decentralised Network Systems with Applications to Distributed Optimisation and Power Systems,” PhD thesis, University of Cambridge, 2025. DOI"
   }
 ]
